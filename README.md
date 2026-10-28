@@ -4,7 +4,7 @@
 
 ## Overview
 
-As the amount of multimedia data continues to grow, duplicate and near-duplicate images occupy unnecessary storage, reduce retrieval efficiency, and introduce redundancy in datasets. Traditional approaches such as perceptual hashing (pHash), difference hashing (dHash), SIFT, and ORB primarily depend on handcrafted features or pixel-level similarity, making them less robust to transformations like cropping, compression, illumination changes, and viewpoint variations.
+As the amount of multimedia data continues to grow, duplicate and near-duplicate images occupy unnecessary storage, reduce retrieval efficiency, and introduce redundancy in datasets. Traditional approaches such as perceptual hashing (pHash), difference hashing (dHash), pixel-level similarity, making them less robust to transformations like cropping, compression, illumination changes, and viewpoint variations.
 
 SnapClean addresses this challenge by combining **Vision Transformers (ViT)**, **Siamese Neural Networks**, **Deep Hashing**, and **FAISS** to learn semantic image representations and perform efficient large-scale similarity retrieval.
 
